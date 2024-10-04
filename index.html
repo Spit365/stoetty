@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup with Save Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="field.png" alt="Fields">
+    <br>
+    <button id="popupBtn">Click me</button>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <p>This is text</p>
+            <!-- Input text field -->
+            <input type="text" id="textInput" placeholder="Type something..." style="width: 80%; padding: 5px; margin: 10px 0;">
+            <br>
+            <!-- Save and Close buttons -->
+            <button class="save-btn" id="saveBtn">Save</button>
+            <button class="close-btn" id="closePopup">Close</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

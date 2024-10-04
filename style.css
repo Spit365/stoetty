@@ -1,0 +1,42 @@
+        /* Popup container */
+        .popup {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+        }
+
+        /* Popup content */
+        .popup-content {
+            margin: 15% auto; /* 15% from the top and centered */
+            padding: 20px;
+            width: 300px;
+            background-color: white;
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Close button */
+        .close-btn, .save-btn {
+            background-color: #4CAF50; /* Green */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 5px;
+        }
+
+        /* Save button hover effect */
+        .save-btn:hover, .close-btn:hover {
+            background-color: #45a049;
+        }
+
+body{
+    background-image: url("background.jpg");
+}
