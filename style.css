@@ -1,5 +1,5 @@
         /* Popup container */
-        .popup {
+        .popup1 {
             display: none; /* Hidden by default */
             position: fixed; /* Stay in place */
             z-index: 1; /* Sit on top */
@@ -11,7 +11,7 @@
         }
 
         /* Popup content */
-        .popup-content {
+        .popup-content1 {
             margin: 15% auto; /* 15% from the top and centered */
             padding: 20px;
             width: 300px;
@@ -22,7 +22,7 @@
         }
 
         /* Close button */
-        .close-btn, .save-btn {
+        .close-btn1, .save-btn1 {
             background-color: #4CAF50; /* Green */
             color: white;
             border: none;
@@ -33,7 +33,7 @@
         }
 
         /* Save button hover effect */
-        .save-btn:hover, .close-btn:hover {
+        .save-btn1:hover, .close-btn1:hover {
             background-color: #45a049;
         }
 

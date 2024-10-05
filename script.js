@@ -10,6 +10,7 @@
             popup1.style.display = "block";
             // Restore the saved text when reopening the popup1
             textInput1.value = localStorage.getItem("textInput1");
+            console.log("hi");
         }
 
         // Close the popup1 when the "close" button is clicked
